@@ -9,10 +9,10 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
     string s;
     int t;
     cin >> t;
-    ios::sync_with_stdio(false);
 
     while(t--) {
         cin >> s;
