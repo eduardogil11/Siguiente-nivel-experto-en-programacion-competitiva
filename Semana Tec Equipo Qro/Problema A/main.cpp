@@ -31,7 +31,7 @@ int main() {
                     break;
                 }
             }
-            // Aqui utilizamos min para comparar y luego si j resta a inserta la letras latinas de i 
+            // Aqui utilizamos min para comparar y luego si j resta a i, inserta la letras latinas de i 
             j = min((int)s.length() - 1, j);
             if((j - i + 1) %2)
             n.insert(s[i]);
