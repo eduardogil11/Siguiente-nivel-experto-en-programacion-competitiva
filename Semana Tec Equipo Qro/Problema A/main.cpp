@@ -20,7 +20,7 @@ int main() {
         cin >> s;
         set <char> n;
         
-        // Utilizamos length para usar todos los tipos de datos de serie de caracteres 
+        // Utilizamos length para usar todos los tipos de datos de serie de caracteres y indicamos que j es igual a i
         for(int i = 0, j; i < (int)s.length(); i = j + 1) {
             j = i;
 
