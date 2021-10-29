@@ -5,6 +5,7 @@
 // =========================================================
 
 #include<bits/stdc++.h>
+#define m 100000+100
 
 using namespace std;
 
