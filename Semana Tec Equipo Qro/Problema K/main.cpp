@@ -9,14 +9,15 @@
 
 using namespace std;
 
-// Variables que utilizaremos
-    const int y = 1e5 + 10;
+int main() {
+    // Variables que utilizaremos
     const long long x = 8e18;
-    int a[y];
+    const int y = 1e5 + 10;
     long long dp[3][y];
+    int a[y];
     long long n, p, q, r;
 
-int main() {
+    // Damos los 4 enteros
     cin >> n >> p >> q >> r;
 
     // Damos n cantidad de números enteros separados por espacios 
